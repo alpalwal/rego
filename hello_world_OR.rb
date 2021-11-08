@@ -7,3 +7,11 @@ result = "fail" {
     input.EbsOptimized == false
     input.CpuOptions.CoreCount < 3
 }
+
+#### OR ####
+# default result = "fail"
+
+# result = "pass" {
+#     input.EbsOptimized == false }
+#     { input.CpuOptions.CoreCount < 3
+# }
